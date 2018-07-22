@@ -1,0 +1,1 @@
+aws cloudformation create-stack  --stack-name stelligent_demo --template-body file://C:\stelligent\cf_code.json --parameters   ParameterKey=VPCAZ,ParameterValue=us-west-1a ParameterKey=VPCAZ1,ParameterValue=us-west-1c
